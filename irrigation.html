@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Irrigation System Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Home page</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/amirhossein-zarabadipour-92219b163/" target="_blank"
+                        class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/Amiir-zar" target="_blank" class="icon brands alt fa-github"><span
+                            class="label">GitHub</span></a></li>
+                <li><a href="#" target="_blank" class="icon brands alt fa-medium"><span class="label">Medium</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <span class="date"> Dec 2019 - Feb 2020 </span>
+
+                    <h1>Introducing a new method to improve irrigation systems</h1>
+                    <p>"Thousands have lived without love, not one without water." - W.H. Auden</p>
+                </header>
+                <article class="post featured">
+                    <p>
+                        <br />
+                        One of the essential aspects of successful agriculture is proper irrigation planning. One of the
+                        key elements in
+                        irrigation planning is measuring or monitoring soil moisture. Various devices, such as
+                        tensometers, gypsum blocks, and
+                        other soil moisture measuring tools, can be used to measure soil moisture. However, the results
+                        of recent research
+                        suggest that the combination of the sensors can reduce agricultural water consumptions greately.
+
+                    <div class="image main"><img src="/images/Irrigation/irrigation_image.jpg" alt="" /></div>
+
+                    <br />
+                    This project was initiated with the aim of developing a new type of sensor that could improve the
+                    performance of
+                    existing soil moisture measuring devices. The proposed sensor would be a combination of gypsum
+                    blocks and YL-69 sensors,
+                    which would allow for more accurate and reliable measurements of soil moisture content. By
+                    compounding these two
+                    sensors, the project team sought to leverage the strengths of both technologies, with gypsum blocks
+                    providing a porous
+                    material to absorb moisture from the surrounding environment and YL-69 sensors converting the
+                    changes in moisture levels
+                    into electrical signals that can be read and analyzed.
+                    <br /><br />
+                    The need for such a sensor arises from the fact that accurate measurements of soil moisture are
+                    crucial for efficient
+                    irrigation planning, which is essential for sustainable agriculture. However, many existing soil
+                    moisture measuring
+                    devices suffer from limitations such as poor accuracy, limited range, and high cost. Therefore,
+                    there is a need for new
+                    sensors that can provide more precise and reliable data at a lower cost.
+                    To achieve the project's goal, the team had to conduct various experiments to test the performance
+                    of the newly
+                    developed sensor. Initially, they designed and created a prototype sensor using a 3D printer, but
+                    the results were not
+                    as desired. They then redesigned the sensor, taking into account factors such as maintaining the
+                    structure, durability,
+                    and efficient use of space to allow the plaster to reach all parts of the circuit. After
+                    manufacturing the plaster
+                    blocks, the team conducted tests to check the accuracy of the measurements, which were found to be
+                    satisfactory.
+                    <br /><br />
+                    In conclusion, this project was aimed at developing a new sensor by compounding gypsum blocks and
+                    YL-69 sensors to
+                    enhance their performance. By leveraging the strengths of these two sensors, the project team sought
+                    to address the
+                    limitations of existing soil moisture measuring devices and provide more accurate and reliable data
+                    for efficient
+                    irrigation planning. Through various experiments and tests, the team was able to successfully
+                    develop a new sensor that
+                    can provide more precise and reliable data at a lower cost.
+                    <br />
+                    <div class="image main"><img src="/images/Irrigation/Arduino_irrigation.jpg" alt="" /></div>
+
+
+
+                    The team recognized that collecting data from the sensors was only the first step in optimizing
+                    irrigation efficiency.
+                    They needed to be able to use this data to control irrigation in real-time and make decisions based
+                    on the data
+                    collected.
+
+                    To achieve this goal, the team developed a server and application for users to access and control
+                    their irrigation
+                    system. The server would collect data from the sensors and send it to the user's application, which
+                    they could access
+                    from their smartphone or computer. The user could then use this data to make informed decisions
+                    about when and how much
+                    to irrigate their crops.
+
+                    The application had several features, including real-time updates of soil moisture levels, alerts
+                    when soil moisture
+                    levels fell below a certain threshold, and the ability to adjust irrigation settings remotely. With
+                    these features,
+                    farmers could monitor and control their irrigation system from anywhere, at any time, maximizing
+                    efficiency and
+                    minimizing water waste.
+
+                    Overall, the second phase of the project focused on creating an end-to-end solution that could
+                    automate the entire
+                    irrigation process. By combining the sensors with a user-friendly application, farmers could achieve
+                    optimal irrigation
+                    efficiency, saving water and improving crop yields.
+                    <div class="image main"><img src="/images/Irrigation/A-modern-irrigation-system.png" alt="" /></div>
+
+                    <br />
+                    The project started by designing and manufacturing the gypsum block sensor, which includes two
+                    concentric cylindrical
+                    conductor axes as the cathode in the center of the system and plaster filling the surrounding
+                    area. The gypsum block
+                    sensor was then tested to determine its accuracy. Next, the YL-69 moisture sensor was connected
+                    to an Arduino processor
+                    to measure soil moisture levels. The project team wrote code to process the numbers read by the
+                    YL-69 sensor and
+                    establish a relationship between voltage and soil moisture. Ten sensors were defined, and their
+                    output values were
+                    correlated with humidity levels. A calibration coefficient of 1 was initially used. A threshold
+                    value was also specified
+                    to determine the irrigation period. If the percentage of moisture was less than that value, a
+                    red light turned on, and
+                    the message "needs watering" appeared. Otherwise, a green light turned on, and the message "no
+                    need to water" appeared.
+                    <div class="image main"><img src="/images/Irrigation/all_in_all.jpg" alt="" /></div>
+                    <div class="image main"><img src="/images/Irrigation/system.jpg" alt="" /></div>
+                    <br />
+                    The project resulted in the successful creation of a new sensor by compounding gypsum blocks and
+                    YL-69 sensors, which
+                    enhanced their performance. The team was able to automate the irrigation process using these
+                    sensors and the data they
+                    provided by creating a server and application for users. By measuring soil moisture accurately,
+                    the project aimed to
+                    reduce agricultural water consumption and increase crop yields. The project team conducted tests
+                    using manufactured
+                    plaster blocks and found the accuracy of their measurements to be satisfactory, with a result of
+                    nearly 92%. The Aruino
+                    was used for the analysis without using the YL-69 device, and it was successful. Overall, the
+                    project provided a
+                    practical solution for farmers to monitor soil moisture levels and make informed decisions about
+                    irrigation, leading to
+                    increased crop yields and reduced water consumption.
+                    </p>
+
+            </section>
+
+        </div>
+        </article>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h2>Contact me:</h2><br />
+                <form action="https://formspree.io/f/xjvdopyw" method="POST">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+            </section>
+            <section class="field">
+                <section class="alt">
+
+                    <h2>Info:</h2><br />
+                    <ul>
+                        <li><strong>Address:</strong> Stockholm Västergården 257
+                            18637 VALLENTUN</li>
+                        <li><strong>Email:</strong> <a
+                                href="mailto:amirzarabadipour@gmail.com">amirzarabadipour@gmail.com</a>
+                        </li>
+                        <li><strong>Phone:</strong><a href="tel:+46722575034">(+46) 722575034</a> </li>
+                    </ul>
+
+                </section>
+                <section>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/amirhossein-zarabadipour-92219b163/" target="_blank"
+                                class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="https://github.com/Amiir-zar" target="_blank"
+                                class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="#" target="_blank" class="icon brands alt fa-medium"><span
+                                    class="label">Medium</span></a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; Untitled</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
